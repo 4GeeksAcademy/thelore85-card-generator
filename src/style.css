@@ -1,1 +1,63 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgba(42, 150, 42, 0.468);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.myCard {
+  margin: auto;
+  width: 300px;
+  height: 500px;
+  background: whitesmoke;
+  border: solid 1px gray;
+  border-radius: 20px;
+  /* transform: rotate(5deg); */
+}
+
+.sign {
+  font-size: 3rem;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+#signBottom {
+  transform: rotate(180deg);
+}
+
+.number {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  transform: rotate(5deg);
+}
+
+.mid {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  transform: rotate(5deg);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  transform: rotate(5deg);
+}
